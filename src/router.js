@@ -56,7 +56,6 @@ router.beforeEach((to, from, next) => {
       break;
     }
   }
-  console.log(Breadcrumb);
   store.commit('setBreadcrumb', Breadcrumb);
   next()
 
